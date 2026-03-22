@@ -1,0 +1,5 @@
+{
+  "name": "Assistente de Compras Inteligente",
+  "description": "Um assistente de lista de compras estilo chat que entende linguagem natural em português brasileiro.",
+  "requestFramePermissions": []
+}
