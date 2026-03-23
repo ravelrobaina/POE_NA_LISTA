@@ -105,7 +105,7 @@ export default async function handler(req: any, res: any) {
 
     // API key stays on the server — never sent to the browser
     const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY! });
-    const model = "gemini-1.5-flash";
+    const model = "gemini-2.0-flash";
 
     const currentDate = new Date().toLocaleDateString("pt-BR");
     const isAskingForSummary = /(gasto|resumo|total|financeiro|relatório|estatística|gráfico|mercado|dinheiro|custou)/i.test(message) && !/falta|faltando/i.test(message);
